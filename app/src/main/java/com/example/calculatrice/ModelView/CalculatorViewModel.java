@@ -1,10 +1,12 @@
-package com.example.calculatrice;
+package com.example.calculatrice.ModelView;
 
 
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.calculatrice.Model.CalculatorModel;
 
 public class CalculatorViewModel extends ViewModel {
     private final CalculatorModel model = new CalculatorModel();
