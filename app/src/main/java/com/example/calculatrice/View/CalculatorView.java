@@ -18,16 +18,16 @@ public class CalculatorView {
     private final TextView displayTextView;
 
     public CalculatorView(AppCompatActivity activity, LifecycleOwner lifecycleOwner) {
-        // Initialize the ViewModel using AppCompatActivity, which implements ViewModelStoreOwner
+
         viewModel = new ViewModelProvider(activity).get(CalculatorViewModel.class);
 
-        // Bind the display TextView
+
         displayTextView = activity.findViewById(R.id.displayTextView);
 
-        // Observe the display value from ViewModel and update the UI
+
         viewModel.getDisplay().observe(lifecycleOwner, displayTextView::setText);
 
-        // Set up button listeners
+
         setupNumberButtons(activity);
         setupOperatorButtons(activity);
         setupControlButtons(activity);
@@ -67,5 +67,8 @@ public class CalculatorView {
     private void setupControlButtons(AppCompatActivity activity) {
         activity.findViewById(R.id.buttonEquals).setOnClickListener(view -> viewModel.onEqualsClick());
         activity.findViewById(R.id.buttonClear).setOnClickListener(view -> viewModel.onClearClick());
+        activity.findViewById(R.id.PlusMins).setOnClickListener(view -> viewModel.onPlusMins());
+        activity.findViewById(R.id.buttonPercent).setOnClickListener(view -> viewModel.onPerCentClick());
+        activity.findViewById(R.id.buttondot).setOnClickListener(view -> viewModel.onDot());
     }
 }

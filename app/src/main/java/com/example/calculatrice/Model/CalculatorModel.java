@@ -12,13 +12,25 @@ public class CalculatorModel {
                 return value1 + value2;
             case "-":
                 return value1 - value2;
-            case "*":
+            case "x":
                 return value1 * value2;
             case "/":
                 return value2 != 0 ? value1 / value2 : Double.NaN;
+
             default:
                 return 0;
         }
     }
+    public double NegativeSign( double value){
+        return -value;
+    }
+    public double PerCent( double value){
+        return value/100;
+    }
+    public double Dot( double value1 , double value2){
+        return value1 + value2/10;
+    }
+
+
 }
-// History aftre
+

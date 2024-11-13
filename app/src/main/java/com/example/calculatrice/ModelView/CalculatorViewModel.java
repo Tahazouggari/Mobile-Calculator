@@ -48,4 +48,20 @@ public class CalculatorViewModel extends ViewModel {
         operator = null;
         isNewValue = true;
     }
+    public void onPlusMins(){
+        double value2 = Double.parseDouble(display.getValue() != null ? display.getValue() : "0");
+        double negative= model.NegativeSign(value2);
+        display.setValue(String.valueOf(negative));
+    }
+    public void onPerCentClick(){
+        double value2 = Double.parseDouble(display.getValue() != null ? display.getValue() : "0");
+        double percent= model.PerCent(value2);
+        display.setValue(String.valueOf(percent));
+    }
+    public void onDot(){
+        double value1 = Double.parseDouble(display.getValue() != null ? display.getValue() : "0");
+        double value2 = Double.parseDouble(display.getValue() != null ? display.getValue() : "0");
+        double percent= model.Dot(value1 , value2);
+        display.setValue(String.valueOf(percent));
+    }
 }

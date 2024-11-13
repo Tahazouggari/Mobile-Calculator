@@ -47,7 +47,7 @@
                 tools:ignore="ButtonStyle" />
 
             <Button
-                android:id="@+id/butto"
+                android:id="@+id/PlusMins"
                 android:layout_width="25pt"
                 android:layout_height="25pt"
                 android:layout_marginEnd="1pt"
@@ -60,7 +60,7 @@
                 tools:ignore="ButtonStyle" />
 
             <Button
-                android:id="@+id/buttonDivide"
+                android:id="@+id/buttonPercent"
                 android:layout_width="25pt"
                 android:layout_height="25pt"
                 android:layout_marginEnd="1pt"
@@ -73,7 +73,7 @@
                 tools:ignore="ButtonStyle" />
 
             <Button
-                android:id="@+id/budiv"
+                android:id="@+id/buttonDivide"
                 android:layout_width="25pt"
                 android:layout_height="25pt"
                 android:layout_weight="1"
@@ -193,7 +193,7 @@
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="OpEvent"
-                android:text="―"
+                android:text="-"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -276,7 +276,7 @@
             tools:ignore="ButtonStyle" />
 
         <Button
-            android:id="@+id/budot"
+            android:id="@+id/buttondot"
             android:layout_width="25pt"
             android:layout_height="25pt"
             android:layout_marginEnd="1pt"
