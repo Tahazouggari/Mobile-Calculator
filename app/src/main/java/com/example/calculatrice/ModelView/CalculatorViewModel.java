@@ -21,11 +21,13 @@ public class CalculatorViewModel extends ViewModel {
 
 
     public void onNumberClick(String number) {
-        if (isNewInput) {
+
+        if (isNewInput  ) {
             display.setValue(number);
             isNewInput = false;
         } else {
-            display.setValue(display.getValue() + number);
+
+                display.setValue(display.getValue() + number);
         }
     }
 
