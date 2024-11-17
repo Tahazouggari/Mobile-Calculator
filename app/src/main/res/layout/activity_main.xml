@@ -40,7 +40,7 @@
                 android:layout_marginEnd="1pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
-                android:background="@color/buttonbackground"
+                android:background="@color/orange"
 
                 android:text="AC"
                 android:textSize="18sp"
@@ -53,8 +53,9 @@
                 android:layout_marginEnd="1pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
-                android:background="@color/buttonbackground"
+                android:background="#141313"
 
+                android:backgroundTint="@color/orange"
                 android:text="+/-"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />

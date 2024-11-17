@@ -5,16 +5,21 @@ package com.example.calculatrice.Model;
 
 
 public class CalculatorModel {
-
+    public double resultatsfinal;
     public double calculate(double value1, double value2, String operator) {
+
         switch (operator) {
             case "+":
+
                 return value1 + value2;
             case "-":
+
                 return value1 - value2;
             case "x":
+
                 return value1 * value2;
-            case "/":
+            case "÷":
+
                 return value2 != 0 ? value1 / value2 : Double.NaN;
 
             default:
@@ -22,6 +27,9 @@ public class CalculatorModel {
         }
     }
     public double NegativeSign( double value){
+        if(value==0){
+            return 0;
+        }
         return -value;
     }
     public double PerCent( double value){
