@@ -67,9 +67,9 @@ public class CalculatorView {
     private void setupControlButtons(AppCompatActivity activity) {
         activity.findViewById(R.id.buttonEquals).setOnClickListener(view -> viewModel.onEqualsClick());
         activity.findViewById(R.id.buttonClear).setOnClickListener(view -> viewModel.onClearClick());
-        activity.findViewById(R.id.PlusMins2).setOnClickListener(view -> viewModel.onPlusMins());
+        activity.findViewById(R.id.buttonPlusMinus).setOnClickListener(view -> viewModel.onPlusMins());
         activity.findViewById(R.id.buttonPercent).setOnClickListener(view -> viewModel.onPerCentClick());
-        activity.findViewById(R.id.buttondot).setOnClickListener(view -> viewModel.onDot());
+        activity.findViewById(R.id.buttonDot).setOnClickListener(view -> viewModel.onDot());
     }
 
 
