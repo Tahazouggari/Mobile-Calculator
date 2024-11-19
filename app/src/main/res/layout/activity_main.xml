@@ -26,14 +26,12 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black">
+        android:layout_height="wrap_content">
 
         <TableRow
             android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/black">
+            android:layout_height="match_parent" >
 
             <Button
                 android:id="@+id/buttonClear"
@@ -46,10 +44,11 @@
 
                 android:text="AC"
                 android:textSize="18sp"
+                android:textColor="@color/red"
                 tools:ignore="ButtonStyle" />
 
             <Button
-                android:id="@+id/PlusMins"
+                android:id="@+id/PlusMins2"
                 android:layout_width="25pt"
                 android:layout_height="25pt"
                 android:layout_marginEnd="1pt"
@@ -80,7 +79,7 @@
                 android:layout_width="25pt"
                 android:layout_height="25pt"
                 android:layout_weight="1"
-                android:background="@color/teal_700"
+                android:background="@color/orange"
 
                 android:text="÷"
                 android:textColor="@color/white"
@@ -91,8 +90,7 @@
         <TableRow
             android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/black">
+            android:layout_height="match_parent" >
 
             <Button
                 android:id="@+id/button7"
@@ -115,7 +113,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
-
+                android:onClick="NumberEvent"
                 android:text="8"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -136,12 +134,11 @@
             <Button
                 android:id="@+id/buttonMultiply"
                 android:layout_width="25pt"
-                android:layout_height="match_parent"
+                android:layout_height="25pt"
                 android:layout_weight="1"
-                android:background="@color/black"
-                android:backgroundTint="@color/teal_200"
+                android:background="@color/orange"
+                android:onClick="OpEvent"
                 android:text="x"
-
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -150,8 +147,7 @@
         <TableRow
             android:layout_marginBottom="1pt"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/black">
+            android:layout_height="match_parent" >
 
             <Button
                 android:id="@+id/button4"
@@ -174,6 +170,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
+                android:onClick="NumberEvent"
                 android:text="5"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -186,6 +183,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
+                android:onClick="NumberEvent"
                 android:text="6"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -196,6 +194,7 @@
                 android:layout_height="25pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OpEvent"
                 android:text="-"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -215,6 +214,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
+                android:onClick="NumberEvent"
                 android:text="1"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -227,6 +227,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
+                android:onClick="NumberEvent"
                 android:text="2"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -239,6 +240,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/buttonbackground"
+                android:onClick="NumberEvent"
                 android:text="3"
                 android:textSize="18sp"
                 tools:ignore="ButtonStyle" />
@@ -249,6 +251,7 @@
                 android:layout_height="25pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OpEvent"
                 android:text="+"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -259,8 +262,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/black">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/button0"
@@ -270,7 +272,7 @@
             android:layout_marginRight="1.3pt"
             android:layout_weight="2"
             android:background="@color/purple_200"
-
+            android:onClick="NumberEvent"
             android:text="0"
             android:textSize="18sp"
             tools:ignore="ButtonStyle" />
@@ -283,7 +285,7 @@
             android:layout_marginRight="1pt"
             android:layout_weight="1"
             android:background="@color/buttonbackground"
-
+            android:onClick="NumberEvent"
             android:text="."
             android:textSize="18sp"
             tools:ignore="ButtonStyle" />
@@ -300,4 +302,5 @@
             android:textSize="18sp"
             tools:ignore="ButtonStyle" />
     </LinearLayout>
+
 </LinearLayout>

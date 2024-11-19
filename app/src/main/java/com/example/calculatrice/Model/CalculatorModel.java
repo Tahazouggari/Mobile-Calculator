@@ -1,6 +1,6 @@
 package com.example.calculatrice.Model;
 
-
+import java.lang.Math;
 
 
 
@@ -35,9 +35,8 @@ public class CalculatorModel {
     public double PerCent( double value){
         return value/100;
     }
-    public double Dot( double value1 , double value2){
-        return value1 + value2/10;
-    }
+
+
 
 
 }

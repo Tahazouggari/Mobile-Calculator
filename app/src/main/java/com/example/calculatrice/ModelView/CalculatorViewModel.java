@@ -34,12 +34,15 @@ public class CalculatorViewModel extends ViewModel {
     public void onOperatorClick(String op) {
         double inputValue = Double.parseDouble(display.getValue() != null ? display.getValue() : "0");
 
-        if (currentOperator != null) {
+        if (currentOperator != null && currentValue!=inputValue) {
 
             currentValue = model.calculate(currentValue, inputValue, currentOperator);
         } else {
 
             currentValue = inputValue;
+        }
+        if (currentValue%10==0){
+            currentValue=(int)currentValue;
         }
 
         display.setValue(String.valueOf(currentValue));
@@ -90,4 +93,6 @@ public class CalculatorViewModel extends ViewModel {
             display.setValue(currentDisplay + ".");
         }
     }
+
+
 }
