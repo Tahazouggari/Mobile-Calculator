@@ -3,17 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Report Template</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple example of an HTML page. You can add text, links, images, and more.</p>
-    <a href="https://example.com">Visit Example.com</a>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <p>Thank you for visiting!</p>
+    <header>
+        <div class="header-container">
+            <h1>Report Title</h1>
+            <p>Author: Your Name</p>
+            <p>Date: <span id="currentDate"></span></p>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="table-of-contents">
+            <li><a href="#introduction">1. Introduction</a></li>
+            <li><a href="#methodology">2. Methodology</a></li>
+            <li><a href="#results">3. Results</a></li>
+            <li><a href="#conclusion">4. Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>1. Introduction</h2>
+            <p>This section provides an overview of the report's purpose, background, and objectives.</p>
+        </section>
+
+        <section id="methodology">
+            <h2>2. Methodology</h2>
+            <p>Describe the methods and techniques used to conduct the research or analysis.</p>
+        </section>
+
+        <section id="results">
+            <h2>3. Results</h2>
+            <p>Present the findings or data gathered during the process.</p>
+        </section>
+
+        <section id="conclusion">
+            <h2>4. Conclusion</h2>
+            <p>Summarize the key points and provide recommendations or future steps.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Script to dynamically set the current date
+        const currentDate = new Date().toLocaleDateString();
+        document.getElementById("currentDate").innerText = currentDate;
+    </script>
 </body>
 </html>
