@@ -26,7 +26,7 @@ main
                 │   └── CalculatorViewModel.java
                 └── View
                     ├── CalculatorView.java
-                    └── MainActivity.java
+                └── MainActivity.java
 ```
 
 
