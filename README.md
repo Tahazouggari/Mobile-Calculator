@@ -1,23 +1,30 @@
 # calculatrice
+![image](https://github.com/user-attachments/assets/fce3a807-3521-4f8d-8dd9-92ba7b59e756)
 
 
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+This is a simple mobile calculator made with Java for the backend. In this project, I implemented all logical functions without using any external libraries. The application is built using the MVVM architecture. For more information, please check the GitLab pages.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
 ## Add your files
+ 
+Project Structure:
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+main
+└── java
+    └── com
+        └── example
+            └── calculatrice
+                ├── Model
+                │   └── CalculatorModel.java
+                ├── ModelView
+                │   └── CalculatorViewModel.java
+                └── View
+                    ├── CalculatorView.java
+                └── MainActivity.java
 
-```
-cd existing_repo
-git remote add origin https://gitlab.ecole.ensicaen.fr/zouggari/calculatrice.git
-git branch -M master
-git push -uf origin master
 ```
 
 ## Integrate with your tools
