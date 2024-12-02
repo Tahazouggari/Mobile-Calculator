@@ -43,7 +43,6 @@ main
                 ├── ModelTest
                 │   └── CalculatorModelTest.java
                 ├── ViewModelTest
-                │   └── CalculatorViewModelTest.java
-                
+                    └── CalculatorViewModelTest.java
 ```
 
