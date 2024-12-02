@@ -1,5 +1,8 @@
 # calculatrice
-![image](https://github.com/user-attachments/assets/fce3a807-3521-4f8d-8dd9-92ba7b59e756)
+
+
+![image](https://github.com/user-attachments/assets/45c31981-f876-4b07-8524-753cc9a39c32)
+
 
 
 
@@ -10,8 +13,8 @@ This is a simple mobile calculator made with Java for the backend. In this proje
 
 ## Add your files
  
-Project Structure:
 
+```
 main
 └── java
     └── com
@@ -23,7 +26,10 @@ main
                 │   └── CalculatorViewModel.java
                 └── View
                     ├── CalculatorView.java
-                └── MainActivity.java
+                    └── MainActivity.java
+```
+
+
 
 ```
 
