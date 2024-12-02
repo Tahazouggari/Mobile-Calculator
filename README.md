@@ -11,8 +11,9 @@
 This is a simple mobile calculator made with Java for the backend. In this project, I implemented all logical functions without using any external libraries. The application is built using the MVVM architecture. For more information, please check the GitLab pages https://tahazouggari.github.io/Mobile-Calculator/.
 
 
-## Add your files
+## Project Structure 
  
+
 
 ```
 main
@@ -30,4 +31,19 @@ main
 ```
 
 
+## Project Unit Test Structure 
+ 
+
+```
+main
+└── java
+    └── com
+        └── example
+            └── calculatrice
+                ├── ModelTest
+                │   └── CalculatorModelTest.java
+                ├── ViewModelTest
+                │   └── CalculatorViewModelTest.java
+                
+```
 
