@@ -1,4 +1,4 @@
-# calculatrice
+# Mobile Calculator
 
 
 ![image](https://github.com/user-attachments/assets/45c31981-f876-4b07-8524-753cc9a39c32)
@@ -33,17 +33,9 @@ main
 
 ```
 
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.ecole.ensicaen.fr/zouggari/calculatrice/-/settings/integrations)
 
 ## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+ 
 
 ## Test and Deploy
 
