@@ -48,5 +48,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    androidTestImplementation(libs.junit.jupiter)
+
+    // Unit testing libraries
+    testImplementation(libs.junit)
+    testImplementation("org.mockito:mockito-core:5.5.0")  // Add Mockito
+    testImplementation("org.mockito:mockito-inline:5.5.0") // For mocking final classes (optional)
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0") // JUnit 5 for advanced testing
+
+    // Instrumentation testing libraries
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    androidTestImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+
 
 }
