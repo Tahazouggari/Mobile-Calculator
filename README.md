@@ -32,11 +32,15 @@ kotlin+java
     │   └── NewsRepository
     ├── ui
     │   ├── fragments
+    │   │   ├── ArticleFragment
+    │   │   ├── FavouritesFragment
+    │   │   ├── HeadlinesFragment
+    │   │   ├── SearchFragment
     │   ├── NewsActivity
     │   └── NewsViewModel
-    │       └── NewsViewModelProviderFactory
+    │   └── NewsViewModelProviderFactory
     ├── util
-    │   ├── Constants
-    │   └── Resource
+        ├── Constants
+        └── Resource
 ```
 
