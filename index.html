@@ -18,7 +18,7 @@
     <nav>
         <ul class="table-of-contents">
             <li><a href="#introduction">1. Introduction</a></li>
-            <li><a href="#ux-principles">2. ux-principles"</a></li>
+            <li><a href="#ux-principles">2. ux-principles</a></li>
             
             <li><a href="#methodology">3. Methodology</a></li>
             <li><a href="#advanced-features">4. advanced-features</a></li>
@@ -44,8 +44,21 @@
             <p>
                 The calculator interface is minimalist, with only the buttons necessary to perform basic calculations. This allows the user to focus solely on their tasks.
             </p>
-            <img class="ui_interface" src="images/ui_interface.png" alt="UI Interface">
-            <p>Mobile Calculator UI</p>
+            <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+                <!-- Première image avec son titre -->
+                <div style="text-align: center;">
+                    <img class="ui_interface" src="images/ui_interface.png" alt="UI Interface" style="max-width: 300px; height: auto;">
+                    <p>Portrait mode</p>
+                </div>
+                
+                <!-- Deuxième image avec son titre -->
+                <div style="text-align: center;">
+                    <img class="Landscape_mode" src="images/Landscape_mode.png" alt="Landscape Mode" style="max-width: 300px; height: auto;">
+                    <p>Landscape Mode</p>
+                </div>
+            </div>
+            
+           
         
             <h3>2. Clarity</h3>
             <p>
@@ -91,8 +104,9 @@
                 <li>View
                     <ul>
                         <li>CalculatorView</li>
-                        <li>MainActivity</li>
+                    
                     </ul>
+                    MainActivity
                 </li>
             </ul>
         </li>
@@ -137,15 +151,7 @@
             <li>Handling large numbers or complex numbers</li>
         </ul>
     
-        <h3>4. Potential Issues with MVVM</h3>
-        <p>
-            The current implementation of the MVVM architecture presents some challenges:
-        </p>
-        <ul>
-            <li><strong>Excessive Dependency on ViewModel:</strong> Some of the business logic appears to be shifted into the ViewModel, which may complicate the separation of responsibilities between the Model and the ViewModel.</li>
-            <li><strong>Lack of Validation in the Model:</strong> User input validation should ideally be handled in the Model to ensure data consistency, but it seems partially absent or scattered in the ViewModel.</li>
-            <li><strong>Increasing Complexity:</strong> With the addition of new features (such as history or complex expressions), the ViewModel could become too bulky, making maintenance more difficult. Revising the architecture or creating sub-ViewModels might be considered.</li>
-        </ul>
+       
     </section>
     <section id="internationalisation">
         <h2>6. Internationalisation</h2>

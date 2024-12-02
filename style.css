@@ -18,7 +18,7 @@ body {
     height: 1%;
 
 }
-/* Header */
+
 header {
     background: #4CAF50;
     color: white;
@@ -34,7 +34,6 @@ header h1 {
     margin: 5px 0;
 }
 
-/* Navigation */
 nav {
     background: #333;
     color: white;
@@ -62,7 +61,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Main Content */
+
 main {
     padding: 20px;
     margin: 0 auto;
@@ -95,7 +94,7 @@ footer {
     margin-top: 20px;
 }
 
-/* List Styling */
+
 ul {
     list-style-type: none;
     padding-left: 20px;
