@@ -14,7 +14,6 @@ This is a simple mobile calculator made with Java for the backend. In this proje
 ## Project Structure 
  
 
-
 ```
 main
 └── java
