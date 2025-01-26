@@ -4,6 +4,9 @@
 ![image](https://github.com/user-attachments/assets/45c31981-f876-4b07-8524-753cc9a39c32)
 
 
+🎥 **Demo Video:**  
+Watch Demo on YouTube: [Mobile calculator](https://youtu.be/XK90VTr1m18)
+
 
 
 ## Getting started
