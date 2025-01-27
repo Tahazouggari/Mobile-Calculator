@@ -6,10 +6,7 @@
 
 
 ## Professors :
-
-    Anthony Roger : anthony.roger231@ensicaen.fr
-
-
+   Anthony Roger : anthony.roger231@ensicaen.fr
 
 
 🎥 **Demo Video:**  
