@@ -5,7 +5,7 @@
 
 
 
-# Professors
+# Professor
 
 - **Anthony Roger**: anthony.roger231@ensicaen.fr
 
